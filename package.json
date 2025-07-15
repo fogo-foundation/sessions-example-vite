@@ -1,0 +1,43 @@
+{
+  "name": "sessions-example-vite",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "TS_NODE_PROJECT=./tsconfig.node.json node --loader ts-node/esm ./src/server.ts",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.31.1",
+    "@fogo/sessions-idls": "^0.0.2",
+    "@fogo/sessions-sdk": "^0.0.5",
+    "@fogo/sessions-sdk-react": "^0.0.5",
+    "@solana/compat": "^2.3.0",
+    "@solana/kit": "^2.3.0",
+    "@solana/spl-token": "^0.4.13",
+    "@solana/web3.js": "^1.98.2",
+    "buffer": "^6.0.3",
+    "express": "^5.1.0",
+    "isomorphic-fetch": "^3.0.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.30.1",
+    "@types/express": "^5.0.3",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@vitejs/plugin-react": "^4.6.0",
+    "dotenv": "^17.2.0",
+    "eslint": "^9.30.1",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "globals": "^16.3.0",
+    "ts-node": "^10.9.2",
+    "typescript": "~5.8.3",
+    "typescript-eslint": "^8.35.1",
+    "vite": "^7.0.4"
+  }
+}
