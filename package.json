@@ -11,9 +11,9 @@
   },
   "dependencies": {
     "@coral-xyz/anchor": "^0.31.1",
-    "@fogo/sessions-idls": "^0.0.3",
-    "@fogo/sessions-sdk": "^0.0.9",
-    "@fogo/sessions-sdk-react": "^0.0.14",
+    "@fogo/sessions-idls": "^0.0.4",
+    "@fogo/sessions-sdk": "^0.0.12",
+    "@fogo/sessions-sdk-react": "^0.0.18",
     "@solana/compat": "^2.3.0",
     "@solana/kit": "^2.3.0",
     "@solana/spl-token": "^0.4.13",

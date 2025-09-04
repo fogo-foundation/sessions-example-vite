@@ -9,6 +9,7 @@ createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <FogoSessionProvider
       endpoint="https://testnet.fogo.io/"
+      domain="https://sessions-example.fogo.io"
       tokens={[NATIVE_MINT.toBase58()]}
       defaultRequestedLimits={{
         [NATIVE_MINT.toBase58()]: 1_500_000_000n,
